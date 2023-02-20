@@ -1,0 +1,30 @@
+{
+  "name": "print-date",
+  "version": "1.0.0",
+  "description": "Kata to practice test doubles",
+  "main": " ",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --coverage"
+  },
+  "author": "Codium",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "jest": "^26.6.3",
+    "sinon": "^9.2.4"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}
