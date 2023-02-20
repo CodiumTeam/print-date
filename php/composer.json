@@ -1,0 +1,20 @@
+{
+    "name": "codium/print-date",
+    "authors": [
+        {
+            "name": "Codium",
+            "email": "info@codium.team"
+        }
+    ],
+    "require": {
+        "php": "^8",
+        "phpunit/phpunit": "^9",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrintDate\\": "src",
+            "PrintDate\\Test\\": "tests"
+        }
+    }
+}
