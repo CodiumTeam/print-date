@@ -18,7 +18,7 @@ On Linux and Mac
 
 in Windows using docker
 
-    docker run --rm -v ${PWD}:/code codiumteam/legacy-training-java:print-date make
+    docker run --rm -v ${PWD}:/code -v ${PWD}/.gradle:/gradle-cache -w /code codiumteam/legacy-training-java make test
 
 In case of problems, please read the [Makefile](./Makefile)
 
