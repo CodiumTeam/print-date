@@ -18,7 +18,7 @@ On Linux and Mac
 
 in Windows using docker
 
-    docker run --rm -v ${PWD}:/code codiumteam/legacy-training-php:print-date make
+    docker run --rm -v ${PWD}:/code codiumteam/legacy-training-java:print-date make
 
 In case of problems, please read the [Makefile](./Makefile)
 
